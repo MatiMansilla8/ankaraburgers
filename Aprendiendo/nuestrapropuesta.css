@@ -1,0 +1,156 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+}
+
+header a{
+    background-color: #0b090a;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border:solid #BA181B;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+body{
+    background-image: url(img/inicio4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.div_redes a{
+    margin: 0px 30px;
+}
+
+.div_derechos,.div_redes{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.div_derechos p{
+    color: #BA181B;
+    font-size: 30px;
+    font-family: 'Bellota Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+}
+
+nav a:hover{
+    background: #BA181B;
+    transition: 1s;
+}
+
+/* TODO LO DE ARRIBA ES IGUAL A TODOS */
+
+h3{
+    font-family: 'Bellota Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    color: #f5f3f4;
+    width: 613px;
+    text-align: center
+ }
+
+main div{
+    height: max-content;        
+    width: 613px; 
+}
+
+main{
+    margin: 82px 60px;
+}
+
+
+/* media query */
+
+@media screen and (max-width:802px) {
+    .navegacion{
+        align-items: center;
+        display: block;
+        width: 100%;
+        background-color: #BA181B;
+    }
+    header a{
+        background-color: #BA181B;
+        border: none;
+        border-radius: 0px;
+    }
+
+    header a:hover{
+        color: #0b090a;
+        background-color: #ffffff;
+    }
+
+    .navegacion div{
+        margin: 40px auto;
+        width: max-content;
+        border: none; 
+    }
+
+    footer{
+        display: block;
+    } 
+
+    .div_derechos p{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .div_logo{
+        margin: auto;
+        width: max-content;
+    }
+
+    .div_redes a{
+        margin: 0px;
+    }
+
+    .div_redes{
+        margin: auto;
+        width: max-content;
+    }
+
+    h3{
+        font-size: 20px;
+        width: 350px;
+        font-weight: 800;
+    }
+
+    main div{
+        width: 350px;
+        margin: auto;
+    }
+
+    main {
+        margin: 0px;
+    }
+    }

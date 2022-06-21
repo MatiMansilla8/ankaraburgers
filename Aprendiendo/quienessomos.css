@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+}
+
+header a{
+    background-color: #0b090a;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 20px;
+    border:solid #BA181B;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 543px;
+}
+
+body{
+    background-image: url(img/inicio3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.div_redes a{
+    margin: 0px 30px;
+}
+
+.div_derechos,.div_redes{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.div_derechos p{
+    color: #BA181B;
+    font-size: 30px;
+    font-family: 'Bellota Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+}
+
+nav a:hover{
+    background: #BA181B;
+    transition: 1s;
+}
+
+/* TODO LO DE ARRIBA ES IGUAL A TODOS */
+
+h3{
+    width: 1559px;
+    font-family: 'Bellota Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #f5f3f4;
+}
+
+/* media query iphone */
+
+@media screen and (max-width:802px) {
+    .navegacion{
+        align-items: center;
+        display: block;
+        width: 100%;
+        background-color: #BA181B;
+    }
+
+    header a{
+        background-color: #BA181B;
+        border: none;
+        border-radius: 0px;
+    }
+
+    header a:hover{
+        color: #0b090a;
+        background-color: #ffffff;
+    }
+
+    .navegacion div{
+        margin: 40px auto;
+        width: max-content;
+        border: none; 
+    }
+
+    footer{
+        display: block;
+    } 
+
+    .div_derechos p{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .div_logo{
+        margin: auto;
+        width: max-content;
+    }
+
+    .div_redes a{
+        margin: 0px;
+    }
+
+    .div_redes{
+        margin: auto;
+        width: max-content;
+    }
+
+    h3{
+        width: 350px;
+        margin-top: 150px;
+    }
+    }

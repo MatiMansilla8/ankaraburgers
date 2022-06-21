@@ -1,0 +1,230 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}  
+
+header{
+    width: 100%;
+}
+
+header a{
+    background-color: #0b090a;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 20px;
+    border:solid #BA181B;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    background-image: url("img/Group\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacto_datos{
+    font-family: 'Bellota Text';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    color: #f5f3f4;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 70px;
+}
+
+.div_derechos p{
+    color: #BA181B;
+    font-size: 30px;
+    font-family: 'Bellota Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+}
+
+nav a:hover{
+    background: #BA181B;
+    transition: 1s;
+}
+
+/* TODO LO DE ARRIBA ES IGUAL A TODOS */
+
+h3{
+    color: #f5f3f4;
+    margin-left: 170px;
+    font-family: 'Bellota Text';
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.div1{
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+form{
+    background-color: #f5f3f4;
+    margin-top: 30px;
+    padding: 30px 0px;
+    border: 2px solid #BA181B;
+}
+
+fieldset{
+    text-align: center;
+    border: none;
+}
+
+label{
+    display: block;
+    margin: 12px auto;
+}
+
+input{
+    border: 2px solid #BA181B;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.div_redes a{
+    margin: 0px 30px;
+}
+
+.div_derechos,.div_redes{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.retoque{
+    font-size: 30px;
+    font-family: 'Bellota Text';
+}
+
+.maps{
+    border: 3px solid #BA181B;
+}
+
+/* media query */
+
+@media screen and (max-width:802px) {
+    .navegacion{
+        align-items: center;
+        display: block;
+        width: 100%;
+        background-color: #BA181B;
+    }
+
+    header a{
+        background-color: #BA181B;
+        border: none;
+        border-radius: 0px;
+    }
+
+    header a:hover{
+        color: #0b090a;
+        background-color: #ffffff;
+    }
+
+    .navegacion div{
+        margin: 40px auto;
+        width: max-content;
+        border: none; 
+    }
+
+    footer{
+        display: block;
+    } 
+
+    .div_derechos p{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .div_logo{
+        margin: auto;
+        width: max-content;
+    }
+
+    .div_redes a{
+        margin: 0px;
+    }
+
+    .div_redes{
+        margin: auto;
+        width: max-content;
+    }
+
+    .contacto_datos{
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        line-height: normal;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    main{
+        display: block;
+        justify-content: space-evenly;
+     }
+
+    .div1{
+        display: block;
+    }
+
+    form{
+        background-color: #f5f3f4;
+        margin-top: 20px;
+    }
+
+    iframe{
+        width: 350px;
+    }
+
+    h3{
+        text-align: center;
+        margin: 0px;
+    }
+
+    .mapa{
+        width: max-content;
+        margin: auto;
+    }
+
+    .maps{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+    }
+    }
